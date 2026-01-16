@@ -1,0 +1,15 @@
+/ {
+    chosen {
+        zmk,display = &oled;
+        zmk,underglow = &underglow;
+    };
+};
+
+&oled {
+    status = "okay";
+};
+
+&underglow {
+    status = "okay";
+    chain-length = <7>;
+};
