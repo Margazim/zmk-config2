@@ -11,5 +11,6 @@
 
 &underglow {
     status = "okay";
-    chain-length = <7>;
+    chain-length = <7>;      /* 7 LEDs pro Hälfte */
+    brightness = <30>;       /* 0–255 */
 };
